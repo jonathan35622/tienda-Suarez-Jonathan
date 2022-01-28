@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <!--Agrego fuente externa-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!--Nombre que va a tener la pestaña en el browser-->
+    <title>Contacto - Rómulo </title>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class=>Contacto</h1>
+        </header>
+        <nav>
+            <ul>
+                <li> <a href="../index.html" class="home"> Home </a> </li>
+                <li> <a href="nosotros.html " class="nosotros">Nosotros </a></li>
+                <li> <a href="productos.html" class="productos"> Productos</a></li>
+                <li> <a href="tienda.html" class="tienda"> Tienda</a></li>
+            </ul>
+        </nav>
+        <main>
+            <form>
+                <fieldset class="form">
+                    <legend> </legend>
+                    <div class="formName">
+                        <label for="nombre" class="labelForm"> Nombre</label>
+                        <input type="text" name="nombre" placeholder="Nombre y apellido">
+                    </div>
+                    <div class="formEmail">
+                        <label for="email" class="labelForm">Email</label>
+                        <input type="email" required placeholder="Ingresá tu email">
+                    </div>
+                    <div class="formPais">
+                        <label for="pais" class="labelForm">País</label>
+                        <select class="selectPais" name="pais">
+                            <option value="argentina">Argentina</option>
+                            <option value="chile">Chile</option>
+                            <option value="colombia">Colombia</option>
+                        </select>
+                    </div>
+                    <div class="textAreaContacto">
+                        <textarea name="" id="" cols="20" rows="5" placeholder="Ingrese aquí su mensaje"></textarea>
+                    </div>
+                    <div class="botonEnviar">
+                        <input type="submit" value="enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <p class="fooContacto"> No dudes en preguntar</p>
+        </footer>
+</body>
+</div>
+</html>
