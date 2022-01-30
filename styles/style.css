@@ -22,9 +22,11 @@ header {
     grid-area: header; 
     display: flex;
     justify-content: center;
+    align-items:center;
     margin-bottom: 0;
     background-color: #231f20;
-    padding: 2rem;
+    padding: 1%;
+   
 }
 
 header h1 {
@@ -237,4 +239,9 @@ label {
     margin: 10px;
     height: 20rem;
     width: 20rem;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 60%;
 }
