@@ -208,8 +208,8 @@ label {
     margin: 15%;
 }
 
-.botonEnviar input{
-    width: 12%;
+.btn{
+    width: 15%;
     border: 0.3rem solid black;
     font-size: 2rem;
 }
