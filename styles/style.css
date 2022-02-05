@@ -8,7 +8,7 @@ body {
     background-color: white;
 }
 
-.container {
+.contenedor {
     display: grid;
     height: 100vh;
     grid-template-areas: "header header"
@@ -19,14 +19,14 @@ body {
 }
 
 header {
-    grid-area: header; 
+    grid-area: header;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     margin-bottom: 0;
     background-color: #231f20;
     padding: 1%;
-   
+
 }
 
 header h1 {
@@ -43,7 +43,7 @@ nav {
     background-color: #7ebdc2;
     position: sticky;
     top: 0;
-   
+
 }
 
 nav ul {
@@ -86,7 +86,7 @@ main {
     font-size: 2rem;
     text-align: center;
     color: black;
-    background-color: #7ebdc2;  
+    background-color: #7ebdc2;
 }
 
 .zapatillas p {
@@ -94,7 +94,7 @@ main {
     text-align: center;
     color: black;
     background-color: #7ebdc2;
-  
+
 }
 
 footer {
@@ -154,10 +154,10 @@ footer p {
     }
 }
 
-main form{
+main form {
     width: 700px;
     height: 300px
- }
+}
 
 .form {
     padding: 2%;
@@ -165,6 +165,7 @@ main form{
     background-color: #f3dfa2;
     font-size: 2.5rem;
 }
+
 .formName {
     margin: 10px;
 }
@@ -204,44 +205,67 @@ label {
     justify-content: center;
 }
 
-.fooContacto{
+.fooContacto {
     margin: 15%;
 }
 
-.btn{
+.btn {
     width: 15%;
     border: 0.3rem solid black;
     font-size: 2rem;
 }
 
 @media screen and (max-width: 768px) and (min-width:320px) {
-    .fooContacto{
+    .fooContacto {
         margin: 15%;
     }
 
-    .form{
+    .form {
         background-color: #cadda3;
     }
 
-    main form{
+    main form {
         width: 650px;
         height: 300px
-     }
+    }
 }
+
 .mainProd .galeria {
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
 }
-.mainProd img{
+
+.mainProd img {
     flex-wrap: wrap;
     margin: 10px;
     height: 20rem;
     width: 20rem;
 }
 
-.logo{
+.logo {
     border-radius: 50%;
     width: 60%;
+}
+
+.slogan {
+    font-size: 3 rem;
+}
+
+.contImgSlog {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    height: 100vh;
+}
+
+.texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: white;
+    letter-spacing: 0.1rem;
 }
